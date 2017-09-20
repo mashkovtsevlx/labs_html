@@ -2,7 +2,9 @@
     font-family: Infinity;
     src: url(font/Infinity.ttf);
 }
-
+* {
+    font-family: Infinity;
+}
 p {
     font-size: 12pt;
 }
@@ -24,6 +26,7 @@ body {
 }
 
 .wrapper {
+    background: #f3f3f3;
     width: 1000px;
     margin: 0 auto;
     min-height: 100%;
@@ -142,7 +145,7 @@ body {
 /*Content*/
 
 .content {
-    padding: 0 0 100px;
+    padding: 20px 20px 100px;
 }
 
 #slider {
@@ -210,9 +213,18 @@ body {
 .footer {
     width: 1000px;
     margin: -100px auto 0;
-    height: 100px;
-    background: #BFF08E;
-    position: relative;
+    height: 50px;
+    bottom: 0;
+    background: #e3e3e3;
+    position: absolute;
+}
+.footer .copyright {
+}
+.footer .copyright .item {
+    position: absolute;
+    top: 50%;
+    margin-left: 50px;
+    margin-top: -6pt;
 }
 
 

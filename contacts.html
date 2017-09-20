@@ -24,7 +24,7 @@
                     <a href="#">Моделі</a>
                     <ul>
                         <li><a href="q50.html">Q50</a></li>
-                        <li><a href="q60.html">QX60</a></li>
+                        <li><a href="qx60.html">QX60</a></li>
                         <li><a href="qx70.html">QX70</a></li>
                     </ul>
                 </li>
@@ -34,61 +34,35 @@
             </ul>
         </header>
         <div class="content">
-            <h1>Infiniti Q50</h1>
-            <img class="model" src="img/model/q50.png" alt="Infiniti Q50" />
-            <p>
-                Високотехнологічний 2.0-літровий бензиновий двигун</p>
-            <p>Перші в світі технології. Мультимедійна система нового покоління INFINITI InTuition ™</p>
-            <p>Інтерактивна навігація нового покоління INFINITI InTouch ™</p>
-            <br /><br /><br /><br /><br /><br /><br />
-            <table class="khar">
-                <caption>Характеристики</caption>
-                <tr>
-                    <th>Комплектація</th>
-                    <th>Мінімум</th>
-                    <th>Бізнес</th>
-                    <th>Максимум</th>
-                </tr>
-                <tr>
-                    <th>Привід</th>
-                    <td>Задній</td>
-                    <td>Задній</td>
-                    <td>Задній</td>
-                </tr>
-                <tr>
-                    <th rowspan="2">Двигун</th>
-                    <td>3.0 Бензин</td>
-                    <td>3.0 Бензин</td>
-                    <td>3.0 Бензин</td>
-                </tr>
-                <tr>
-                    <td>2.8 Дизель</td>
-                    <td>5.0 Бензин</td>
-                    <td>5.0 Бензин</td>
-                </tr>
-                <tr>
-                    <th rowspan="2">До 100</th>
-                    <td>5.0 с</td>
-                    <td>5.0 с</td>
-                    <td>5.0 с</td>
-                </tr>
-                <tr>
-                    <td>7.5 с</td>
-                    <td>4.7 с</td>
-                    <td>4.7 с</td>
-                </tr>
-                <tr>
-                    <th rowspan="2">Використання пального/100 км</th>
-                    <td>14 л</td>
-                    <td>14 л</td>
-                    <td>14 л</td>
-                </tr>
-                <tr>
-                    <td>10 л</td>
-                    <td>18 л</td>
-                    <td>18 л</td>
-                </tr>
-                </table>
+            <div id="w">
+                <center><h1>Для того, щоб зв'язатися із нами, заповніть форму нижче</h1></center>
+                <form id="contactform" name="contact" method="post" ectype="text/plain" action="mailto:mashkovtsev.lx@gmail.com">
+                    <p class="note"><span class="req">*</span> поля із зірочкою обов'язкові для заповнення</p>
+                    <div class="row">
+                        <label for="name">Ваше Ім'я <span class="req">*</span></label>
+                        <input type="text" name="name" id="name" class="txt" tabindex="1" placeholder="Іван Іванов" required>
+                    </div>
+
+                    <div class="row">
+                        <label for="email">E-mail Адреса <span class="req">*</span></label>
+                        <input type="email" name="email" id="email" class="txt" tabindex="2" placeholder="address@gmail.com" required>
+                    </div>
+
+                    <div class="row">
+                        <label for="subject">Тема <span class="req">*</span></label>
+                        <input type="text" name="subject" id="subject" class="txt" tabindex="3" placeholder="Тема звернення" required>
+                    </div>
+
+                    <div class="row">
+                        <label for="message">Повідомлення <span class="req">*</span></label>
+                        <textarea name="message" id="message" class="txtarea" tabindex="4" required></textarea>
+                    </div>
+
+                    <div class="center">
+                        <input type="submit" id="submitbtn" name="submitbtn" tabindex="5" value="Відправити повідомлення">
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </body>

@@ -153,6 +153,9 @@ body {
     height: 254px;
     margin-bottom: 25px;
 }
+.content .add {
+    height: 300px;
+}
 
 #slider {
     width: 100%;
@@ -239,6 +242,7 @@ body {
 .model {
     min-height: 254px;
     float: left;
+    margin-right: 20px;
 }
 
 caption {
@@ -275,6 +279,8 @@ td {
 #w {
     margin: auto;
     width: 430px;
+    border: 1px solid lightgrey;
+    padding-bottom: 20px;
 }
 
 form .row {
@@ -328,4 +334,11 @@ form .txt {
     font-size: 1.35em;
     font-weight: normal;
     color: #898989;
+}
+form .center {
+    text-align: center;
+}
+form textarea {
+    width: 277px;
+    max-width: 277px;
 }
